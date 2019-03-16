@@ -13,4 +13,6 @@ ReactDOM.render(<div>
         onMouseLeave={() => console.log('leave')}
         onTouchStart={() => console.log('touch')}
   />
+  <hr/>
+  如果看不到上面的图标，请联系班主任或老师解决
 </div>, document.querySelector('#root'));

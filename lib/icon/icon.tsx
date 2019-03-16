@@ -13,7 +13,7 @@ const Icon: React.FunctionComponent<IconProps> =
       <svg className={classes('fui-icon', className)}
            {...restProps}
       >
-        <use xlinkHref={`#${name}`}/>
+        <use xlinkHref={`${name}`}/>
       </svg>
     );
   };
